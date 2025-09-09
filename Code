@@ -1,0 +1,115 @@
+//using System;
+
+//class Program
+//{
+
+//    static void CheckEquality(int a, int b)
+//    {
+//        if (a == b)
+//            Console.WriteLine("Числа равны.");
+//        else
+//            Console.WriteLine("Числа не равны.");
+//    }
+
+//    static void Main()
+//    {
+//        Console.Write("Введите первое число: ");
+//        int num1 = int.Parse(Console.ReadLine());
+
+//        Console.Write("Введите второе число: ");
+//        int num2 = int.Parse(Console.ReadLine());
+
+//        CheckEquality(num1, num2);
+//    }
+//}
+
+
+//using System;
+//class Program
+//{
+//    static void CheckDivisibility(int a, int b)
+//    {
+//        if (b == 0)
+//        {
+//            Console.WriteLine("Ошибка: деление на ноль невожможно.");
+//            return;
+//        }
+//        if (a % b == 0)
+//            Console.WriteLine($"{a} делится на {b} без остатка.");
+//        else
+//            Console.WriteLine($"{a} не делится на {b} без остатка.");
+
+//    }
+
+//    static void Main()
+//    {
+//        Console.Write("Введите первое число: ");
+//        int num1 = int.Parse(Console.ReadLine());
+//        Console.Write("Введите второе число: ");
+//        int num2 = int.Parse(Console.ReadLine());
+
+//        CheckDivisibility(num1, num2);
+//    }
+//}
+
+
+//using System;
+//using System.Data;
+//class Program
+//{
+//    static void CheckNumber(int n)
+//    {
+//        if (n >= 1 &&  n <= 100)
+//        {
+//            if (n > 50)
+//                Console.WriteLine($"Число {n} больше 50.");
+//            else if (n < 50)
+//                Console.WriteLine($"Число {n} меньше 50.");
+//            else
+//                Console.WriteLine("Число равно 50.");
+//        }
+//        else
+//        {
+//            Console.WriteLine("Ошибка число должно быть от 1 до 100!");
+//        }
+//    }
+//    static void Main()
+//    {
+//        Console.WriteLine("Введите число от 1 до 100: ");
+//        int number = int.Parse(Console.ReadLine());
+
+//        CheckNumber(number);
+//    }
+// }
+
+
+
+
+//using System;
+
+//class Program
+//{
+
+//    static void CompareNumbers(int a, int b)
+//    {
+//        string result = (a > b)
+//            ? $"{a} больше {b}"
+//            : (a < b)
+//                ? $"{a} меньше {b}"
+//                : "Числа равны";
+
+//        Console.WriteLine(result);
+//    }
+
+//    static void Main()
+//    {
+//        Console.Write("Введите первое число: ");
+//        int num1 = int.Parse(Console.ReadLine());
+
+//        Console.Write("Введите второе число: ");
+//        int num2 = int.Parse(Console.ReadLine());
+
+
+//        CompareNumbers(num1, num2);
+//    }
+//}
